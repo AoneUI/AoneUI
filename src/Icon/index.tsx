@@ -1,5 +1,5 @@
 import React,{ReactElement} from 'react';
-import '../../public/iconfont/iconfont.css'
+// import '../../public/iconfont/iconfont.css'
 
 interface iconProps {
     iconName: string | undefined;
