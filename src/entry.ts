@@ -1,2 +1,2 @@
 import AButton from "./Button";
-export {AButton}
+export { AButton };
