@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AButton from "./Button";
+import { AButton } from "./entry";
 import "./index.css";
 // import {AButton} from '../dist/react-ui-teaching.esm'
 // import "../public/iconfont/iconfont.css"

@@ -58,6 +58,7 @@ const AButton = (props: ButtonProps) => {
 };
 // 为函数组件的props添加默认值
 AButton.defaultProps = {
+  type: 'primary',
   color: "white",
   icon: "",
   size: "medium",

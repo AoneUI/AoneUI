@@ -1,3 +1,5 @@
+import { ReactNode, CSSProperties } from 'react';
+
 type ISize = "small" | "medium" | "large";
 type IColor =
   | ""
@@ -33,13 +35,32 @@ type IIcon =
   | "suoxiao"
   | "gongzuotai"
   | "zhichuhetong";
+
+type IType = 'primary' | 'danger' | 'warning' | 'text' | 'message';
+
 interface ButtonProps {
+  /**
+   * @description 按钮主题
+   * @default primary
+   */
+  type?: IType;
+  /**
+   * @description 自定义样式
+   */
+  style?: CSSProperties;
   color?: IColor;
+  /**
+   * @description 图标按钮
+   */
   icon?: IIcon;
+  /**
+   * @description 类名
+   */
+  className?: string;
   size?: ISize;
   round?: false | true;
   plain?: false | true;
-  children?: string;
+  children?: ReactNode;
 }
 
 export {
