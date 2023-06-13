@@ -1,13 +1,7 @@
 import React, { ReactElement } from "react";
-// import '../../public/iconfont/iconfont.css'
+import { iconProps } from './props';
 
-interface iconProps {
-  iconName: string | undefined;
-  customClassName?: string;
-  onIconClick?: () => void;
-}
-
-function Icon(props: iconProps): ReactElement {
+const AIcon = (props: iconProps): ReactElement => {
   const { iconName, customClassName, onIconClick } = props;
   const handleIcon = () => onIconClick?.();
   return (
@@ -17,4 +11,4 @@ function Icon(props: iconProps): ReactElement {
   );
 }
 
-export default Icon;
+export default AIcon;

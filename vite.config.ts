@@ -10,7 +10,7 @@ export const config=({
     sourcemap: true, // 输出单独 source文件
     cssCodeSplit: true,
     lib: {
-      entry: "./src/entry.ts",
+      entry: "./packages/entry.ts",
       name: 'React-UI-Teaching',
       formats: ["esm", "umd","iife"],
       fileName: 'react-ui-teaching',
