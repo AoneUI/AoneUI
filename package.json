@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint --fix --ext .ts src",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
+    "lint": "eslint --fix --ext .ts packages",
+    "format": "prettier --write \"packages/**/*.ts\" \"packages/**/*.tsx\"",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -29,7 +29,7 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "tailwindcss": "2.2.19",
-    "typescript": "3",
+    "typescript": "^4.9.5",
     "vite": "4.1.0-beta.0"
   }
 }

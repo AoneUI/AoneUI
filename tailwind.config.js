@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["index.html","./src/**/*.{react.js,ts,jsx,tsx}"],
+  content: ["index.html","./packages/**/*.{react.js,ts,jsx,tsx}"],
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
