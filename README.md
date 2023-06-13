@@ -1,21 +1,19 @@
-# dumi app
+# Aone-UI
 
-## Getting Started
-
-Install dependencies,
+## start
 
 ```bash
-$ npm i
+$ pnpm dev
 ```
 
-Start the dev server,
+Start the doc
 
 ```bash
-$ npm start
+$ pnpm start
 ```
 
-Build site app,
+Build
 
 ```bash
-$ npm run build
+$ pnpm build
 ```
