@@ -40,7 +40,7 @@ export default function DumiContextWrapper() {
 
   return (
     <SiteContext.Provider value={{
-      pkg: {"name":"dumi-app"},
+      pkg: {"name":"aone-ui"},
       historyType: "browser",
       entryExports,
       demos,

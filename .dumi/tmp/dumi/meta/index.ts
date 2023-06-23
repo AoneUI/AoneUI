@@ -7,7 +7,7 @@ import { demos as dm2, frontmatter as fm2, toc as toc2, texts as txt2 } from '/w
 import { demos as dm3, frontmatter as fm3, toc as toc3, texts as txt3 } from '/workspace/AoneUI/docs/help.zh-CN.md?type=meta';
 import { demos as dm4, frontmatter as fm4, toc as toc4, texts as txt4 } from '/workspace/AoneUI/docs/index.md?type=meta';
 import { demos as dm5, frontmatter as fm5, toc as toc5, texts as txt5 } from '/workspace/AoneUI/docs/help.md?type=meta';
-import { demos as dm6, frontmatter as fm6, toc as toc6, texts as txt6 } from '/workspace/AoneUI/src/Button/index.md?type=meta';
+import { demos as dm6, frontmatter as fm6, toc as toc6, texts as txt6 } from '/workspace/AoneUI/src/button/index.md?type=meta';
 
 export { components } from './atoms';
 export { tabs } from './tabs';
@@ -49,7 +49,7 @@ export const filesMeta = {
     texts: txt5,
     demos: dm5,
   },
-  'components/Button/index': {
+  'components/button/index': {
     frontmatter: fm6,
     toc: toc6,
     texts: txt6,
