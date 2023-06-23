@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/getting-started.zh-CN":{"path":"getting-started","id":"docs/getting-started.zh-CN","parentId":"DocLayout"},"docs/getting-started":{"path":"getting-started","id":"docs/getting-started","parentId":"DocLayout"},"docs/index.zh-CN":{"path":"","id":"docs/index.zh-CN","parentId":"DocLayout"},"docs/help.zh-CN":{"path":"help","id":"docs/help.zh-CN","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"docs/help":{"path":"help","id":"docs/help","parentId":"DocLayout"},"components/Button/index":{"id":"components/Button/index","path":"components/button","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout"}} as const;
+  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/getting-started.zh-CN":{"path":"getting-started","id":"docs/getting-started.zh-CN","parentId":"DocLayout"},"docs/getting-started":{"path":"getting-started","id":"docs/getting-started","parentId":"DocLayout"},"docs/index.zh-CN":{"path":"","id":"docs/index.zh-CN","parentId":"DocLayout"},"docs/help.zh-CN":{"path":"help","id":"docs/help.zh-CN","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"docs/help":{"path":"help","id":"docs/help","parentId":"DocLayout"},"components/button/index":{"id":"components/button/index","path":"components/button","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout"}} as const;
   return {
     routes,
     routeComponents: {
@@ -17,7 +17,7 @@ export async function getRoutes() {
 'docs/help.zh-CN': React.lazy(() => import(/* webpackChunkName: "docs__help.zh-CN.md" */'/workspace/AoneUI/docs/help.zh-CN.md')),
 'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/workspace/AoneUI/docs/index.md')),
 'docs/help': React.lazy(() => import(/* webpackChunkName: "docs__help.md" */'/workspace/AoneUI/docs/help.md')),
-'components/Button/index': React.lazy(() => import(/* webpackChunkName: "Button__index.md" */'/workspace/AoneUI/src/Button/index.md')),
+'components/button/index': React.lazy(() => import(/* webpackChunkName: "button__index.md" */'/workspace/AoneUI/src/button/index.md')),
 'demo-render': React.lazy(() => import(/* webpackChunkName: "dumi__pages__Demo" */'@/dumi__pages/Demo')),
 },
   };

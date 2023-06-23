@@ -1,7 +1,4 @@
-import AButton from "./Button";
-import AIcon from "./Icon";
-
+import AButton from "./button";
 export { 
     AButton,
-    AIcon
  };
