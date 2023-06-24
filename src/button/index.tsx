@@ -1,4 +1,4 @@
-import React, { type FC } from 'react';
+import React , { type FC } from 'react';
 import { createNameSpace } from '../utils/components';
 import { ButtonProps, defaultProps } from './props';
 import '../styles/common.less';
