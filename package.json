@@ -50,6 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "autoprefixer": "^10.4.13",
+    "babel-eslint": "^10.1.0",
     "eslint": "^8.35.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.21",
@@ -61,5 +62,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "parser": "babel-eslint"
   }
 }
