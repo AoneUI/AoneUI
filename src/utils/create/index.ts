@@ -1,10 +1,7 @@
 type ClassName = string | undefined | null;
 type Classes = (ClassName | [any, ClassName, ClassName ?])[];
 
-export function createNameSpace(
-  name: string,
-  prefix?: string
-) {
+export function createNameSpace(name: string) {
   const nameSpace = 'au';
   const componentName = `${nameSpace}-${name}`;
   const createBem = (suffix?: string) => {
