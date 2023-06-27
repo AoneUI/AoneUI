@@ -4,10 +4,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
 
-import nprogress from '/workspace/AoneUI/node_modules/.pnpm/registry.npmmirror.com+nprogress@0.2.0/node_modules/nprogress';
+import nprogress from 'H:/AoneUI/node_modules/.pnpm/registry.npmmirror.com+nprogress@0.2.0/node_modules/nprogress';
 import './nprogress.css';
 
-import { SiteContext } from '/workspace/AoneUI/node_modules/.pnpm/registry.npmmirror.com+dumi@2.2.1_@babel+core@7.22.5_eslint@8.35.0_postcss@8.4.21_prettier@2._yeqgwzjaoy5z7gduepczkg6zxy/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from 'H:/AoneUI/node_modules/.pnpm/registry.npmmirror.com+dumi@2.2.1_gje3yeff4mavut43kfm2fcqwky/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 
@@ -49,7 +49,7 @@ export default function DumiContextWrapper() {
       loading,
       setLoading,
       hostname: undefined,
-      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true},
+      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"name":"aone-ui","nav":[],"rules":[{"maxWidth":375,"mode":"vw","optionsWebpack":[100,750]},{"minWidth":376,"maxWidth":750,"mode":"vw","options":[100,1500]}]},
       _2_level_nav_available: true,
     }}>
       {outlet}
