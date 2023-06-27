@@ -1,21 +1,22 @@
-import React , { type FC } from 'react';
+import React , { forwardRef } from 'react';
 import { createNameSpace } from '../utils/create';
 import { ButtonProps, buttonDefaultProps } from './props';
 import '../styles/common.less';
 import './index.less';
 
-const Button: FC<ButtonProps> = (p) => {
+const Button = forwardRef<any, ButtonProps>((p, ref) => {
     const { n, classes } = createNameSpace('cell');
     const props = { ...buttonDefaultProps, ...p };
 
     return (
         <button 
             ref={ref}
+            /* eslint-disable react/button-has-type */
             type={props.nativeType}
             disabled={props.disabled}
             style={{
                 color: props.textColor,
-                background: props.color
+                background: props.color,
             }}
             onClick={props.onClick}
             className={classes(
@@ -37,6 +38,6 @@ const Button: FC<ButtonProps> = (p) => {
             {props.children}
         </button>
     );
-};
+});
 
 export default Button;
