@@ -14,9 +14,6 @@
     "create:component": "aone-ui-cli create",
     "analysis": "aone-ui-cli analysis"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },

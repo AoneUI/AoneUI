@@ -4,13 +4,13 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // @umijs/renderer-*
-export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/workspace/AoneUI/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.70_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react';
-export type {  History } from '/workspace/AoneUI/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.70_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react'
+export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from 'H:/AoneUI/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.71_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+export type {  History } from 'H:/AoneUI/node_modules/.pnpm/registry.npmmirror.com+@umijs+renderer-react@4.0.71_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from '/workspace/AoneUI/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.70_@babel+core@7.22.5_eslint@8.35.0_postcss@8.4.21_prettier@2._jogqf63yxvyyu4rpnmhv5rr77m/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from 'H:/AoneUI/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.71_vx5xwchrizhjgsa36j7xe7gvcm/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 export { TestBrowser } from './testBrowser';
 // plugins
-export { getSketchJSON } from '/workspace/AoneUI/.dumi/tmp/plugin-html2sketch';
+export { getSketchJSON } from 'H:/AoneUI/.dumi/tmp/plugin-html2sketch';
 // plugins types.d.ts
